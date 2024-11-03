@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(193, 194, 193, 0.295);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    border: 1px solid #b3b3b3;
+    background-color: #ffffff;
+    color: rgb(115, 196, 119);
+    border-radius: 0px 0px 20px 20px;
+    border-top: 0px;
+    box-shadow: 0px 5px 5px #b3b3b3;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.title{
+    color: #ffffff;
+    text-shadow: 2px 2px #b3b3b3;
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(115, 196, 119);
+}
+.imgLogo{
+    width: 10%;
+    margin-right: 20px;
+}
+.homeMenu{
+    margin-right: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+}
+.medidaMenu{
+    margin-right: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+}
+.consumoMenu{
+    margin-right: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+}
+
+.homeMenu:hover{
+    margin-right: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    color:rgba(0, 255, 0, 0.295);
+    cursor: pointer;
+}
+.medidaMenu:hover{
+    margin-right: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    color:rgba(0, 255, 0, 0.295);
+    cursor: pointer;
+}
+.consumoMenu:hover{
+    margin-right: 20px;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    color:rgba(0, 255, 0, 0.295);
+    cursor: pointer;
+}
+#statusRede{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #b3b3b3;
+    background-color: #ffffff;
+    color: rgb(247, 94, 33);
+    width: 20%; 
+}
+#statusSolar{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #b3b3b3;
+    background-color: #ffffff;
+    color: rgb(63, 168, 49);
+    width: 20%; 
+}
+h2{
+    text-align: center;
+}
+.rede{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.bodyMed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+}
+.medidaRede{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #b3b3b3;
+    background-color: #ffffff;
+    padding: 15px;
+    width: 25%;
+    height: 250px;
+}
+.tituloRede{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: rgb(115, 196, 119);
+}
+.medidaSolar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #b3b3b3;
+    background-color: #ffffff;
+    padding: 15px;
+    width: 50%;
+    height: 250px;
+    margin: 30px;
+}
+.tituloSolar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: rgb(115, 196, 119);
+}
+.iconTitle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+}
+.labelTitle{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid brgb(115, 196, 119);
+    border-radius: 10px;
+    background-color:  rgb(121, 121, 121);
+    color: #ffffff;
+    padding: 10px;
+    width: 30%;
+}
+.cardTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cardBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
+label{
+    font-size: 22px;
+    margin: 5px; 
+}
+.status{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.statusconect{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: end;
+}
+.statusbat{
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    justify-content: end;
+}
+
